@@ -56,7 +56,7 @@
         "CMSSWVersion": "CMSSW_8_0_21",
         "ScramArch": "slc6_amd64_gcc530",
         "InputFromOutputModule": "PREMIXRAWoutput",
-        "InputStep": "DIGI"
+        "InputStep": "DIGI",
         "SplittingAlgo": "EventAwareLumiBased",
         "StepName": "RECO"},
     "StepChain": 3
