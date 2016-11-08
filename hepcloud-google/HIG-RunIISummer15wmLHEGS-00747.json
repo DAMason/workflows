@@ -9,7 +9,7 @@
     "AcquisitionEra": "RunIISummer16DR80Premix",
     "ProcessingString": "StepChainTest",
     "PrimaryDataset": "DYJetsToNuNu_PtZ-250To400_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8",
-     "PrepID": "HIG-RunIISummer15wmLHEGS-00747",
+    "PrepID": "HIG-RunIISummer15wmLHEGS-00747",
     "Group": "DATAOPS",
     "ProcessingVersion": 1,
     "RequestPriority": 120000,
@@ -49,14 +49,14 @@
         "SplittingAlgo": "EventAwareLumiBased",
         "StepName": "DIGI"},
     "Step3": {
-        "ConfigCacheID": "f7e311f2c6b5a0884faea133990f66cc",
+        "ConfigCacheID": "f03809e756223bdcac0be791dd71bf4a",
         "KeepOutput": "True",
         "PrepID": "HIG-RunIISummer15wmLHEGS-00747",
         "GlobalTag": "80X_mcRun2_asymptotic_2016_TrancheIV_v6",
         "CMSSWVersion": "CMSSW_8_0_21",
         "ScramArch": "slc6_amd64_gcc530",
         "InputFromOutputModule": "PREMIXRAWoutput",
-        "InputStep": "DIGI",
+        "InputStep": "DIGI"
         "SplittingAlgo": "EventAwareLumiBased",
         "StepName": "RECO"},
     "StepChain": 3
