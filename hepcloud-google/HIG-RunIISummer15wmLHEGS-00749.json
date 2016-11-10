@@ -17,15 +17,15 @@
     "ScramArch": "slc6_amd64_gcc530",
     "Memory": 1700,
     "SizePerEvent": 250,
-    "TimePerEvent":60,
+    "TimePerEvent":64,
     "OpenRunningTimeout" : 3600,
     "Step1": {
       "StepName": "GENSIM",
       "PrepID": "HIG-RunIISummer15wmLHEGS-00749",
-      "RequestNumEvents": 50000000,
+      "RequestNumEvents": 23255814,
       "GlobalTag": "MCRUN2_71_V1::All",
-      "EventsPerLumi": 200,
-      "EventsPerJob": 200,
+      "EventsPerLumi": 187,
+      "EventsPerJob": 187,
       "KeepOutput": "False",
       "SplittingAlgo": "EventBased",
       "ScramArch": "slc6_amd64_gcc481",
@@ -34,7 +34,7 @@
       "CMSSWVersion": "CMSSW_7_1_25_patch2"
     },
     "Step2": {
-        "ConfigCacheID": "f03809e756223bdcac0be791dd71b654",
+        "ConfigCacheID": "f7e311f2c6b5a0884faea133990edcbf",
         "GlobalTag": "80X_mcRun2_asymptotic_2016_TrancheIV_v6",
         "PrepID": "HIG-RunIISummer15wmLHEGS-00749",
         "ScramArch": "slc6_amd64_gcc530",
@@ -49,7 +49,7 @@
         "SplittingAlgo": "EventAwareLumiBased",
         "StepName": "DIGI"},
     "Step3": {
-        "ConfigCacheID": "f03809e756223bdcac0be791dd71bf4a",
+        "ConfigCacheID": "f7e311f2c6b5a0884faea133990f66cc",
         "KeepOutput": "True",
         "PrepID": "HIG-RunIISummer15wmLHEGS-00749",
         "GlobalTag": "80X_mcRun2_asymptotic_2016_TrancheIV_v6",
