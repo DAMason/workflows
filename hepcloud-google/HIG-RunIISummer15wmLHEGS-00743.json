@@ -70,7 +70,7 @@
     "ProcessingString": "PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6",
     "Dashboard": "test",
     "SiteBlacklist": [],
-    "TrustPUSitelists": false, 
+    "TrustPUSitelists": true, 
     "MergedLFNBase": "/store/mc",
     "UnmergedLFNBase": "/store/unmerged",
     "MinMergeSize": 2147483648,
