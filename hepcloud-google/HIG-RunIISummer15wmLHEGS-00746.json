@@ -62,30 +62,38 @@
     "StepChain": 3
     },
 "assignRequest": {
-    "SiteWhitelist": [],
-    "Team": "Team-OVERRIDE-ME",
-    "AcquisitionEra": "RunIIFall15DR76",
-    "ProcessingString": "GoogleyBoogaBoogaBooga",
-    "Dashboard": "Dashboard-OVERRIDE-ME",
+    "SiteWhitelist": [
+       "T1_US_FNAL"
+    ],
+    "Team": "hepcloud",
+    "AcquisitionEra": "RunIISummer16DR80Premix",
+    "ProcessingString": "PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6",
+    "Dashboard": "test",
     "SiteBlacklist": [],
-    "MergedLFNBase": "/store/backfill/1",
+    "TrustPUSitelists": true, 
+    "MergedLFNBase": "/store/mc",
     "UnmergedLFNBase": "/store/unmerged",
     "MinMergeSize": 2147483648,
     "MaxMergeSize": 4294967296,
     "MaxMergeEvents": 50000,
-    "ProcessingVersion": 1,
+    "ProcessingVersion": 2,
     "MaxRSS": 2352000,
     "MaxVSize": 20294967,
     "SoftTimeout": 129600,
     "GracePeriod": 1000,
     "CustodialSites": [],
-    "NonCustodialSites": [],
-    "AutoApproveSubscriptionSites": [],
+    "NonCustodialSites": [
+    	"T1_US_FNAL_Disk"
+    ],
+    "AutoApproveSubscriptionSites": [
+    	"T1_US_FNAL_Disk"
+    ],
+    "NonCustodialGroup": "local", 
     "SubscriptionPriority": "Low",
     "CustodialSubType" : "Move",
     "BlockCloseMaxWaitTime" : 72000,
     "BlockCloseMaxFiles" : 500,
     "BlockCloseMaxEvents" : 200000000,
     "BlockCloseMaxSize" : 5000000000000
-    }
+    }:
 }
