@@ -12,7 +12,7 @@
     "PrepID": "HIG-RunIISummer15wmLHEGS-00749",
     "Group": "DATAOPS",
     "ProcessingVersion": 1,
-    "RequestPriority": 120000,
+    "RequestPriority": 112000,
     "RequestType": "StepChain",
     "ScramArch": "slc6_amd64_gcc530",
     "Memory": 1700,
