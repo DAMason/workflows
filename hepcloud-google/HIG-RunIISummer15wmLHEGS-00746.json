@@ -95,5 +95,5 @@
     "BlockCloseMaxFiles" : 500,
     "BlockCloseMaxEvents" : 200000000,
     "BlockCloseMaxSize" : 5000000000000
-    }:
+    }
 }
