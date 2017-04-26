@@ -22,7 +22,7 @@
     "Step1": {
       "StepName": "GENSIM",
       "PrepID": "",
-      "RequestNumEvents": 800000,
+      "RequestNumEvents": 2000000,
       "GlobalTag": "MCRUN2_71_V1::All",
       "EventsPerLumi": 200,
       "EventsPerJob": 400,
