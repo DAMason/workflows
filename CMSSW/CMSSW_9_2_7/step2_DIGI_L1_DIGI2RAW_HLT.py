@@ -63,7 +63,7 @@ process.configurationMetadata = cms.untracked.PSet(
 
 # Output definition
 
-process.RAWSIMoutput = cms.OutputModule("PoolOutputModule",
+process.RAWoutput = cms.OutputModule("PoolOutputModule",
     compressionAlgorithm = cms.untracked.string('LZMA'),
     compressionLevel = cms.untracked.int32(9),
     dataset = cms.untracked.PSet(
@@ -87,12 +87,12 @@ process.digitisation_step = cms.Path(process.pdigi)
 process.L1simulation_step = cms.Path(process.SimL1Emulator)
 process.digi2raw_step = cms.Path(process.DigiToRaw)
 process.endjob_step = cms.EndPath(process.endOfProcess)
-process.RAWSIMoutput_step = cms.EndPath(process.RAWSIMoutput)
+process.RAWoutput_step = cms.EndPath(process.RAWoutput)
 
 # Schedule definition
 process.schedule = cms.Schedule(process.digitisation_step,process.L1simulation_step,process.digi2raw_step)
 process.schedule.extend(process.HLTSchedule)
-process.schedule.extend([process.endjob_step,process.RAWSIMoutput_step])
+process.schedule.extend([process.endjob_step,process.RAWoutput_step])
 from PhysicsTools.PatAlgos.tools.helpers import associatePatAlgosToolsTask
 associatePatAlgosToolsTask(process)
 
