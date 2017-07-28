@@ -6,7 +6,7 @@
     "ConfigCacheUrl": "https://cmsweb.cern.ch/couchdb",
     "DbsUrl": "https://cmsweb.cern.ch/dbs/prod/global/DBSReader",
     "GlobalTag": "92X_upgrade2017_realistic_v7",
-    "AcquisitionEra": "92xNERSCTesting",
+    "AcquisitionEra": "RunIISummer17GS",
     "ProcessingString": "StepChainTest",
     "PrimaryDataset": "MinBiasCenter_13TeV_pythia8",
     "PrepID": "666",
@@ -69,7 +69,7 @@
        "T3_US_NERSC"
     ],
     "Team": "hepcloud",
-    "AcquisitionEra": "92xNERSCTesting",
+    "AcquisitionEra": "RunIISummer17GS",
     "ProcessingString": "92X_upgrade2017_realistic_v7_NERSCTEST",
     "Dashboard": "test",
     "SiteBlacklist": [],
