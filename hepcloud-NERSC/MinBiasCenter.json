@@ -79,7 +79,7 @@
     "MinMergeSize": 2147483648,
     "MaxMergeSize": 4294967296,
     "MaxMergeEvents": 50000,
-    "ProcessingVersion": 1,
+    "ProcessingVersion": 3,
     "MaxRSS": 4000000,
     "MaxVSize": 20294967,
     "SoftTimeout": 129600,
