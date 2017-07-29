@@ -43,7 +43,7 @@
         "CMSSWVersion": "CMSSW_9_2_7",
         "InputFromOutputModule": "RAWSIMoutput",
         "InputStep": "GENSIM",
-        "KeepOutput": "False",
+        "KeepOutput": "True",
         "Multicore": 4, 
         "RunWhitelist": [],
         "RunBlacklist": [],
