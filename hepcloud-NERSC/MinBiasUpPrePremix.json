@@ -30,7 +30,7 @@
         "EventsPerJob": 1600,
         "ScramArch": "slc6_amd64_gcc530",
         "CMSSWVersion": "CMSSW_9_2_7",
-        "MCPileup": "/MinBiasUp_13TeV_pythia8/RunIISummer17GS-92X_upgrade2017_realistic_v7_NERSCTEST-v5/GEN-SIM"
+        "MCPileup": "/MinBiasUp_13TeV_pythia8/RunIISummer17GS-92X_upgrade2017_realistic_v7_NERSCTEST-v5/GEN-SIM",
         "KeepOutput": "True",
         "Multicore": 4, 
         "RunWhitelist": [],
