@@ -39,19 +39,7 @@
         "SplittingAlgo": "EventAwareLumiBased",
         "Seeding": "AutomaticSeeding",
         "StepName": "DIGI"},
-    "Step2": {
-        "ConfigCacheID": "0bc3939c82e5ff009762dca089aa09b9",
-        "KeepOutput": "True",
-        "PrepID": "666",
-        "Multicore": 4, 
-        "GlobalTag": "92X_upgrade2017_realistic_v8",
-        "CMSSWVersion": "CMSSW_9_2_7_patch1",
-        "ScramArch": "slc6_amd64_gcc530",
-        "InputFromOutputModule": "PREMIXoutput",
-        "InputStep": "DIGI",
-        "SplittingAlgo": "EventAwareLumiBased",
-        "StepName": "RECO"},
-    "StepChain": 2
+    "StepChain": 1
     },
 "assignRequest": {
     "SiteWhitelist": [
