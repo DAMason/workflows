@@ -31,7 +31,7 @@
       "KeepOutput": "False",
       "SplittingAlgo": "EventBased",
       "ScramArch": "slc6_amd64_gcc530",
-      "ConfigCacheID": "ae06d51b64ae625e5d8e5658d1d0af1f",
+      "ConfigCacheID": "4d362d09ce3067b4d51b6d05637687e7",
       "Seeding": "AutomaticSeeding",
       "CMSSWVersion": "CMSSW_9_2_8"
     },
@@ -76,8 +76,6 @@
         "InputStep": "RECO",
         "SplittingAlgo": "EventAwareLumiBased",
         "StepName": "MINIAOD"},
-    
-    }
     "StepChain": 4
     },
 "assignRequest": {
