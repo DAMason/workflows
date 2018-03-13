@@ -40,6 +40,7 @@
         "MCPileup": "/Neutrino_E-10_gun/RunIISummer17PrePremix-MCv2_correctPU_94X_mc2017_realistic_v9-v1/GEN-SIM-DIGI-RAW", 
         "GlobalTag": "94X_mc2017_realistic_v11",
         "PrepID": "666",
+        "ScramArch": "slc6_amd64_gcc630",
         "CMSSWVersion": "CMSSW_9_4_0_patch1",
         "InputFromOutputModule": "RAWSIMoutput",
         "InputStep": "GENSIM",
